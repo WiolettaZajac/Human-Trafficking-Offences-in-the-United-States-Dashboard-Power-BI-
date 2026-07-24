@@ -18,7 +18,7 @@ The dashboard provides an overview of reported human trafficking offences in the
 
 ## Live Dashboard
 
-**[View the Interactive Power BI Dashboard](<[iframe title="Human Trafficking Offenses in the United States" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOTI1YWJhNDYtMzI0Yy00MWMwLThmNGMtNTVlYThmMDg2NGQ4IiwidCI6IjNlYTdjMTI4LWM2MDEtNDQ3OS1hMDAzLWUxNGQwMGMwYjVjYiJ9" frameborder="0" allowFullScreen="true"></iframe>)](https://app.powerbi.com/view?r=eyJrIjoiOTI1YWJhNDYtMzI0Yy00MWMwLThmNGMtNTVlYThmMDg2NGQ4IiwidCI6IjNlYTdjMTI4LWM2MDEtNDQ3OS1hMDAzLWUxNGQwMGMwYjVjYiJ9)**
+**[View the Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTI1YWJhNDYtMzI0Yy00MWMwLThmNGMtNTVlYThmMDg2NGQ4IiwidCI6IjNlYTdjMTI4LWM2MDEtNDQ3OS1hMDAzLWUxNGQwMGMwYjVjYiJ9)**
 
 ---
 
