@@ -60,15 +60,17 @@ The data used in this project was obtained from the **FBI Uniform Crime Reportin
 
 - [HumanTraffickingDashboard.pbix](dashboard/HumanTraffickingDashboard.pbix)
 
+
 ---
+
 
 ## 📷 Dashboard Preview
 
 The dashboard includes interactive filters that allow users to explore reported offences by year, state, and FBI region.
 
-![Human Trafficking Dashboard](images/HT-screen.png)
-
+![Human Trafficking Dashboard](images/htscreen.png)
 ---
+
 
 ## Key Findings
 
