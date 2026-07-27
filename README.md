@@ -1,18 +1,20 @@
 # Human Trafficking Offences in the United States Dashboard (Power BI)
 
-This project is an interactive Power BI dashboard built using human trafficking offence data from the FBI Uniform Crime Reporting (UCR) Program. It was created to practise using Power BI, Power Query, and DAX while analysing a real-world public safety dataset.
+This project is an interactive Power BI dashboard analysing human trafficking offences reported in the United States between 2013 and 2024. Using data from the FBI Uniform Crime Reporting (UCR) Program, the dashboard explores reporting trends, clearance rates, regional patterns, and state-level comparisons through interactive visualisations.
 
-The dashboard provides an overview of reported human trafficking offences in the United States between 2013 and 2024. Users can explore offence trends over time, analyse clearance rates, compare states and FBI regions, and examine the geographical distribution of offences using interactive filters and visualisations.
+The project was created to strengthen my Power BI skills while working with a real public safety dataset, with a particular focus on data preparation, DAX calculations, and dashboard design.
 
 ---
 
-## Project Objectives
+## Project Overview
 
-- Prepare and transform the human trafficking dataset.
-- Analyse offence trends using Power BI.
-- Build an interactive dashboard with KPIs and visualisations.
-- Compare reported offences across states and FBI regions.
-- Present key insights in a clear and interactive dashboard.
+The dashboard allows users to:
+
+- Explore reported offences over time.
+- Compare reported and cleared offences.
+- Analyse clearance rates across states and FBI regions.
+- Identify geographical patterns using an interactive map.
+- Filter results by year, state, and FBI region.
 
 ---
 
@@ -24,29 +26,29 @@ The dashboard provides an overview of reported human trafficking offences in the
 
 ## Dataset
 
-The dataset contains reported human trafficking offences submitted to the **FBI Uniform Crime Reporting (UCR) Program** between **2013 and 2024**. It includes information on reported offences, cleared offences, states, FBI regions, and reporting agencies.
+The dashboard uses data from the FBI Uniform Crime Reporting (UCR) Program covering human trafficking offences reported between **2013 and 2024**.
 
-Before building the dashboard, the data was cleaned and transformed in Power BI using Power Query. Additional DAX measures were created to calculate key performance indicators, including the clearance rate.
+The original dataset was cleaned and transformed in **Power Query** before being modelled in Power BI. Several **DAX measures** were created to calculate KPIs such as total offences, cleared offences, and overall clearance rate.
 
 | Column | Description |
 |---------|-------------|
-| `Year` | Reporting year |
-| `State` | US state where the offence was reported |
-| `FBI Region` | FBI region for each state |
-| `Reported Offences` | Number of reported human trafficking offences |
-| `Cleared Offences` | Number of offences cleared by law enforcement |
-| `Clearance Status` | Indicates whether an offence was cleared |
-| `Reporting Agency` | Agency that submitted the data |
+| **Year** | Reporting year |
+| **State** | US state where the offence was reported |
+| **FBI Region** | FBI region assigned to each state |
+| **Reported Offences** | Total reported offences |
+| **Cleared Offences** | Number of offences cleared by law enforcement |
+| **Clearance Status** | Indicates whether an offence was cleared |
+| **Reporting Agency** | Agency submitting the report |
 
 ---
 
 ## Data Source
 
-The data used in this project was obtained from the **FBI Uniform Crime Reporting (UCR) Program** and includes reported human trafficking offences submitted by more than 2,000 law enforcement agencies across the United States.
+The data comes from the **FBI Uniform Crime Reporting (UCR) Program** and includes submissions from more than 2,000 law enforcement agencies across the United States.
 
 ---
 
-## Tools Used
+## Tools & Technologies
 
 - Power BI Desktop
 - Power Query
@@ -58,52 +60,50 @@ The data used in this project was obtained from the **FBI Uniform Crime Reportin
 
 ## Project Files
 
-- [HumanTraffickingDashboard.pbix](dashboard/HumanTraffickingDashboard.pbix)
-
+- `dashboard/HumanTraffickingDashboard.pbix`
 
 ---
 
+## Dashboard Preview
 
-## 📷 Dashboard Preview
-
-The dashboard includes interactive filters that allow users to explore reported offences by year, state, and FBI region.
+The dashboard includes interactive slicers that allow users to explore the data by year, state, and FBI region.
 
 ![Human Trafficking Dashboard](images/htscreen.png)
+
 ---
 
+## Key Insights
 
-## Key Findings
+Analysis of the dataset revealed several notable trends:
 
-Some of the insights from the dashboard include:
-
-- Reported human trafficking offences increased steadily between 2013 and 2024.
-- Around **23,000 offences** were reported during the study period.
-- Approximately **40.5%** of reported offences were cleared.
+- More than **23,000** human trafficking offences were reported between 2013 and 2024.
+- Reported offences generally increased over the study period.
+- Around **40.5%** of offences were cleared by law enforcement.
 - Texas recorded the highest number of reported offences.
-- Nearly three out of every five reported offences remained unresolved.
+- Nearly **60%** of reported offences remained uncleared.
 
 ---
 
 ## What I Learned
 
-This project helped me improve my Power BI skills by working with a real-world crime dataset.
+Working on this project gave me practical experience of building an end-to-end Power BI solution using a real-world dataset.
 
-The biggest challenge was preparing the data for analysis and creating DAX measures to calculate the key performance indicators used throughout the dashboard. I also spent time improving the layout to ensure the dashboard was clear, easy to navigate, and visually consistent.
+The most time-consuming part was preparing the data for analysis and creating DAX measures that accurately calculated the dashboard KPIs. I also focused on designing a clean, consistent layout so that users could quickly understand the key findings and explore the data through interactive filters.
 
-By completing this project, I became more confident using Power Query for data transformation, DAX for calculations, and Power BI to create interactive dashboards that communicate data clearly.
+Overall, the project improved my confidence with Power Query, DAX, data modelling, and dashboard design.
 
 ---
 
 ## Skills Demonstrated
 
-- Data cleaning
+- Data Cleaning
 - Power Query
-- Data modelling
+- Data Modelling
 - DAX
-- KPI development
-- Dashboard design
-- Data visualisation
-- Interactive reporting
+- KPI Development
+- Dashboard Design
+- Data Visualisation
+- Interactive Reporting
 
 ---
 
