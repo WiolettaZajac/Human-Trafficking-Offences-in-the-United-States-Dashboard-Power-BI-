@@ -1,4 +1,4 @@
-# Human Trafficking Offences in the United States Dashboard (Power BI)
+# Human Trafficking Offences in the USA Dashboard (Power BI)
 
 This project is an interactive Power BI dashboard analysing human trafficking offences reported in the United States between 2013 and 2024. Using data from the FBI Uniform Crime Reporting (UCR) Program, the dashboard explores reporting trends, clearance rates, regional patterns, and state-level comparisons through interactive visualisations.
 
